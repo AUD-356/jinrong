@@ -10,9 +10,9 @@ if (session_status() === PHP_SESSION_NONE) {
 
 // Database configuration - default values
 define('DB_HOST', 'localhost');
-define('DB_USER', 'bc');
-define('DB_PASS', 'bc1234.');
-define('DB_NAME', 'bachang');
+define('DB_USER', 'root');
+define('DB_PASS', 'root');
+define('DB_NAME', 'root');
 define('DB_PORT', '3306');
 
 // Security constants
