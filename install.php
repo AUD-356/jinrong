@@ -1,8 +1,8 @@
 <?php
 $host = 'localhost';
 $port = '3306';
-$user = 'bc';
-$pass = 'bc1234.';
+$user = 'root';
+$pass = 'root';
 
 function runTest($pdo, $name, $testFn) {
     echo "测试: $name\n";
