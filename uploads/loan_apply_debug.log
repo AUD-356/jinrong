@@ -1,0 +1,32 @@
+[personal] 2026-05-11 17:03:36 POST={"product_id":"1","amount":"5000","term":"3","purpose":"经营","rate":"4.35%","income":"50000","employment_status":"退休","application_content":"....."} SESSION={"user_id":"1","loan_receipt_no":null}
+[personal] 2026-05-11 17:03:36 ERROR=SQLSTATE[42S22]: Column not found: 1054 Unknown column 'application_content' in 'field list'
+[personal] 2026-05-11 19:49:58 POST={"product_id":"1","amount":"5000","term":"3","purpose":"医疗","rate":"4.35%","income":"50000","employment_status":"学生","application_content":"。"} SESSION={"user_id":"1","loan_receipt_no":null}
+[personal] 2026-05-11 19:49:58 ERROR=SQLSTATE[42S22]: Column not found: 1054 Unknown column 'application_content' in 'field list'
+[personal] 2026-05-11 20:07:23 POST={"product_id":"1","amount":"5000","term":"3","purpose":"医疗","rate":"4.35%","income":"50000","employment_status":"学生","application_content":"。"} SESSION={"user_id":"1","loan_receipt_no":null}
+[personal] 2026-05-11 20:07:23 SUCCESS receipt_no=RC202605112007233837
+[personal] 2026-05-12 01:38:18 POST={"product_id":"3","amount":"5000000","term":"30","purpose":"经营","rate":"3.25%","income":"50000","employment_status":"在职","application_content":"吃喝嫖赌抽"} SESSION={"user_id":"2","loan_receipt_no":null}
+[personal] 2026-05-12 01:38:18 SUCCESS receipt_no=RC202605120138182941
+[enterprise] 2026-05-12 02:51:17 POST={"product_id":"6","amount":"5000000","term":"12","purpose":"流动资金周转","rate":"4.85%","income":"5000000","employment_status":"3-5年","application_content":".。。。。。"} SESSION={"enterprise_id":"1","loan_receipt_no":null}
+[enterprise] 2026-05-12 02:51:17 SUCCESS receipt_no=RC202605120251173457
+[personal] 2026-05-24 06:23:15 POST={"product_id":"3","amount":"5000000","term":"12","purpose":"旅游","rate":"3.25%","income":"50000","employment_status":"自由职业","application_content":"吃喝嫖赌抽"} SESSION={"user_id":"100000","loan_receipt_no":null}
+[personal] 2026-05-24 06:23:15 SUCCESS receipt_no=RC202605240623159530
+[personal] 2026-05-24 06:34:43 POST={"product_id":"4","amount":"1000000","term":"12","purpose":"旅游","rate":"4.75","income":"500000","employment_status":"自雇","application_content":"吃喝嫖赌抽"} SESSION={"user_id":"100000","loan_receipt_no":"RC202605240623159530"}
+[personal] 2026-05-24 06:34:43 SUCCESS receipt_no=RC202605240634431754
+[enterprise] 2026-05-24 10:17:19 POST={"product_id":"6","amount":"50000000","term":"12","purpose":"流动资金周转","rate":"4.85","income":"100000","employment_status":"5-10年","application_content":"吃喝嫖赌抽"} SESSION={"enterprise_id":"100000","loan_receipt_no":null}
+[enterprise] 2026-05-24 10:17:19 SUCCESS receipt_no=RC202605241017199367
+[enterprise] 2026-05-26 06:48:43 POST={"product_id":"6","amount":"50000000","term":"12","purpose":"流动资金周转","rate":"4.85","income":"500000","employment_status":"1年以下","application_content":"吃喝嫖赌抽"} SESSION={"enterprise_id":"100000","loan_receipt_no":null}
+[enterprise] 2026-05-26 06:48:43 SUCCESS receipt_no=RC202605260648439904
+[personal] 2026-05-29 22:06:44 POST={"product_id":"3","amount":"100000","term":"12","purpose":"消费","rate":"3.25","income":"20000","employment_status":"在职","application_content":"。。。。。"} SESSION={"user_id":"100000","loan_receipt_no":null}
+[personal] 2026-05-29 22:06:44 SUCCESS receipt_no=RC202605292206449015
+[personal] 2026-05-29 22:38:54 POST={"product_id":"3","amount":"5000000","term":"12","purpose":"购房","rate":"3.25","income":"55555555555555555555","employment_status":"在职","application_content":".。。。。。。"} SESSION={"user_id":"100000","loan_receipt_no":null}
+[personal] 2026-05-29 22:38:54 ERROR=SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'income' at row 1
+[personal] 2026-05-29 22:39:18 POST={"product_id":"3","amount":"5000000","term":"12","purpose":"购房","rate":"3.25","income":"55555555555555555555","employment_status":"在职","application_content":".。。。。。。"} SESSION={"user_id":"100000","loan_receipt_no":null}
+[personal] 2026-05-29 22:39:18 ERROR=SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'income' at row 1
+[personal] 2026-05-29 22:42:07 POST={"product_id":"3","amount":"5000000","term":"12","purpose":"购房","rate":"3.25","income":"555555","employment_status":"在职","application_content":".。。。。。。"} SESSION={"user_id":"100000","loan_receipt_no":null}
+[personal] 2026-05-29 22:42:07 SUCCESS receipt_no=RC202605292242072951
+[personal] 2026-05-29 22:52:35 POST={"product_id":"1","amount":"5000","term":"3","purpose":"旅游","rate":"4.35","income":"2600","employment_status":"自由职业","application_content":"吃喝嫖赌"} SESSION={"user_id":"100001","loan_receipt_no":null}
+[personal] 2026-05-29 22:52:35 SUCCESS receipt_no=RC202605292252352170
+[personal] 2026-05-30 18:10:38 POST={"product_id":"4","amount":"1000000","term":"12","purpose":"消费","rate":"4.75","income":"500000","employment_status":"在职","application_content":".。。。。。"} SESSION={"user_id":"100000","loan_receipt_no":null}
+[personal] 2026-05-30 18:10:38 SUCCESS receipt_no=RC202605301810387160
+[personal] 2026-05-30 19:37:06 POST={"product_id":"3","amount":"100000","term":"12","purpose":"经营","rate":"3.25","income":"5000","employment_status":"在职","application_content":"1234"} SESSION={"user_id":"100000","loan_receipt_no":null}
+[personal] 2026-05-30 19:37:06 SUCCESS receipt_no=RC202605301937065010
